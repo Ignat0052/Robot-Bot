@@ -1,0 +1,98 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+body{
+	background: #222222;
+}
+.form{
+	width: 70%;
+	background: #222222;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
+	margin: 50px auto;
+
+}
+.form-header{
+	height: 50px;
+	background: #65daff;
+	color: white;
+	text-align: center;
+	position: relative;
+	line-height: 50px;
+
+}
+.btn-back{
+	position: absolute;
+	left: 0px;
+	height: 50px;
+	width: 50px;
+	background: white;
+	line-height: 50px;
+	font-size: 20px;
+	text-decoration: none;
+	font-weight: 900;
+
+}
+.form-body{
+	padding: 30px;
+	color: white;
+
+}
+.fname,.sname{
+	border: none;
+	background: none;
+	border-bottom: 1px solid white;
+	width: 100%;
+	padding: 20px;
+	color: white;
+	outline: none;
+
+}
+.input-wraper{
+	margin: 30px 0px;
+}
+.mradio{
+	margin:0px 10px;
+}
+.fradio{
+	margin: 0px 10px;
+}
+.age{
+	margin: 0px 10px;
+}
+select{
+	border-radius: 5px;
+	padding: 5px;
+}
+.comment{
+	resize: none;
+	width: 100%;
+	background: none;
+	border: 1px solid white;;
+	padding: 15px;
+	height: 200px;
+	color: white;
+
+
+}
+button{
+	padding: 20px 80px;
+	border: none;
+	outline: none;
+	color: white;
+	background: linear-gradient(45deg,#65daff,#70ffcb);
+	margin: 30px auto;
+	display: block;
+}
+button:hover{
+	background: linear-gradient(45deg,#347083,#388065);
+
+}
+fieldset{
+	padding: 30px;
+	margin-bottom: 20px;
+}
+
+

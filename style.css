@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,900;1,100;1,300&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+.container{
+	max-width: 1000px;
+	margin: auto;
+}
+.section-title{
+	font-size: 30px;
+	color: #65daff;
+}
+.section-text{
+	font-size: 20px;
+	font-weight: 300;
+	color: white;
+
+}
+.section-text1{
+	font-size: 20px;
+	font-weight: 300;
+	color: grey;
+	text-align: center;
+	margin-bottom: 100px;
+}
+body{
+	background: #222222  ;
+}
+.nav-item{
+	font-size: 16px;
+	text-decoration: none;
+	color: white;
+	margin-left: 10px;
+	font-weight: 900px;
+}
+.logo{
+color: white;
+text-decoration: none;
+font-size: 20px;
+}
+.nav-menu{
+	position: fixed;
+	width: 100%;
+	background: #222222;
+	height: 80px;
+	z-index: 1000;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
+	line-height: 80px;
+
+}
+.navigation{
+	float: right;
+	margin-top: 5px ;
+
+}
+.nav-item:hover{
+	color: #65daff;
+	text-shadow: 0 0 5px #65daff;
+}
+.site-header{
+	height: 80vh;
+	background: url(img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg);
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+
+	
+
+}
+.header-content{
+	position: absolute;
+	top: 50%;
+	width: 50%;
+	transform: translateY(-50%);
+	padding-left: 30px;
+}	
+.header-title{
+	font-size: 100px;
+	font-weight: 900;
+	margin-bottom:50px ;
+	line-height: 100px;
+}
+.header-btn{
+	background: linear-gradient(45deg,#65daff,#70ffcb);
+	display: inline-block;
+	padding: 20px 80px;
+	text-decoration: none;
+	color: white;
+}
+.header-btn:hover{
+	transform: scale(1.1);
+
+}
+.header-btn:active{
+	background: linear-gradient(45deg,#347083,#388065);
+}
+.header-sub{
+	font-size: 55px;
+	margin-bottom: 50px;
+
+}
+.about{
+	height: 40vh;
+}
+.about-card{
+	display: inline-block;
+	width: 24%;
+	color: #65daff;
+	font-size: 30px;
+	margin-top: 100px;
+	text-align: center;
+	vertical-align: top;
+	height: 200px;
+}
+.about-card-img{
+	height: 130px;
+}
+.games-card-img{
+	background: url(img/csgo.jpg);
+	height: 350px ;
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+	background-size: cover;
+
+
+}
+.games-card-img2{
+	background: url(img/legue.png);
+	height: 350px ;
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+	background-size: cover;
+}
+.games-card-img3{
+	background: url(img/apex.jpg);
+	height: 350px ;
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+	background-size: cover;
+}
+.games-cart-content{
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+	height: 350px;
+	text-align: left;
+	line-height: 35px;
+
+}
+.section-title{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.game-title{
+	color: #70ffcb;
+    font-size: 25px;
+    text-align: left;
+}
+.games-cart-content hr{
+	background: #70ffcd;
+	width: 130px;
+	height: 3px;
+	margin: 20px 0;
+
+
+}
+.games{
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
+	width: 1200px;
+	margin: auto;
+}
+.discord{
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
+	width: 1200px;
+	margin: auto;	
+}
+.klick{
+	background:#65daff;
+	padding: 50px;
+	padding-left: 80px;
+	width: 90%;
+	margin: auto;
+	border: none;
+
+}
+.klick-tut{
+	display: inline-block;
+	font-size: 35px;
+	color: white;
+}
+.liniya{
+	background: white;
+	width: 245px;
+	height: 3px;
+	margin-left: 487px;
+	margin-bottom: 20px;
+
+}
+.goknam{
+	padding-top: 20px;
+}
+.zapis{
+	display: inline-block;
+	padding: 20px 80px;
+	text-decoration: none;
+	color: white;
+	background: black;
+	margin-left: 478px;
+	
+}
+@media (max-width: 1200px){
+	.navigation{
+		float: none;
+
+	}
+	.nav-item{
+		display: block;
+
+	}
+	.nav-menu{
+		height: auto;
+		position: static;
+
+	}
+	.site-header{
+		height: 100vh;
+		width: 100%;
+	}
+	.header-title{
+		font-size: 40px;
+	}
+	.header-sub{
+		font-size: 20px;
+	}
+	.header-content{
+		width: 100%;
+	}
+	.about-card-img{
+		height: 50px;
+
+	}
+	.about-card p{
+		font-size: 14px;
+
+
+	}
+	.about-card{
+
+	}
+
+}
+.games-container{
+	padding-bottom: 30px;
+}
